@@ -1,0 +1,17 @@
+package jyothi;
+
+public class ExponentialTime {
+	public static int fibonacci(int n) {
+		if(n <= 1) {
+			return n;
+		}
+		return fibonacci(n-1)+fibonacci(n - 2);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 5;
+		System.out.println("fibonacci of"+ n + "is:"+fibonacci(n));
+	}
+
+}
